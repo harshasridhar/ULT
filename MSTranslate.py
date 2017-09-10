@@ -2,7 +2,7 @@
 import sys
 import microsofttranslator
 
-translator=microsofttranslator.Translator("UnivLangTransApp_1", "pbqz/lPGg47fU0GxnkstdPSMTlyoD/KRwYW7wvCp2DQ=")
+translator=microsofttranslator.Translator("name", "your-password")
 
 f=open("speech.txt","r")
 text=str(f.read())
